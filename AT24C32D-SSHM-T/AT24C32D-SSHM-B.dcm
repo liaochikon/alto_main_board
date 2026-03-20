@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT24C32D-SSHM-B
+D AT24C32D-SSHM-B, EEPROM Memory 32kbit,, 4096 x, 8bit, Serial-2 Wire, 550ns 1.7  5.5 V, 8-Pin SOIC
+K
+F http://www.atmel.com/images/atmel-8866-seeprom-at24c32d-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
