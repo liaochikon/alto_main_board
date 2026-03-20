@@ -285,6 +285,347 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Barrel_Jack_MountingPin"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_MountingPin"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with a mounting pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -7538,6 +7879,12 @@
 		(uuid "eed5f9ee-fe62-4678-a49a-856488e14cee")
 	)
 	(junction
+		(at 369.57 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f07628e3-4c44-4a3a-9c1c-8632aca50a8d")
+	)
+	(junction
 		(at 306.07 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7965,6 +8312,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 198.12) (xy 377.19 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232eda17-02b5-4f59-9ae1-d3e0d29d6fde")
+	)
+	(wire
+		(pts
 			(xy 87.63 205.74) (xy 52.07 205.74)
 		)
 		(stroke
@@ -8102,6 +8459,16 @@
 			(type default)
 		)
 		(uuid "30fa06c5-55d1-4ca2-9822-3d46157a8a09")
+	)
+	(wire
+		(pts
+			(xy 377.19 203.2) (xy 369.57 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d4e1f0-e8b1-4d35-9f43-362b09e1630c")
 	)
 	(wire
 		(pts
@@ -8282,6 +8649,16 @@
 			(type default)
 		)
 		(uuid "490fe80d-de03-4833-b7d8-f112648660c6")
+	)
+	(wire
+		(pts
+			(xy 381 193.04) (xy 377.19 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492bcde5-db96-4663-bfe7-1321398499a3")
 	)
 	(wire
 		(pts
@@ -8725,7 +9102,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 193.04) (xy 340.36 193.04)
+			(xy 317.5 193.04) (xy 322.58 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8882,6 +9259,16 @@
 			(type default)
 		)
 		(uuid "8fa93a7b-c83d-4d62-89bd-043160d2dd2e")
+	)
+	(wire
+		(pts
+			(xy 369.57 205.74) (xy 369.57 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb0de62-2e15-402a-a2e5-b3cc903b993a")
 	)
 	(wire
 		(pts
@@ -10035,7 +10422,7 @@
 	)
 	(global_label "CANL"
 		(shape input)
-		(at 365.76 200.66 0)
+		(at 347.98 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10045,7 +10432,7 @@
 		)
 		(uuid "5aa8f758-983f-48d8-b5ff-cad5109eff58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.4624 200.66 0)
+			(at 355.6824 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10796,7 @@
 	)
 	(global_label "CANH"
 		(shape input)
-		(at 340.36 200.66 180)
+		(at 322.58 200.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10419,7 +10806,7 @@
 		)
 		(uuid "e10db2bf-36c2-4419-860a-c583b17393de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 332.3552 200.66 0)
+			(at 314.5752 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12998,7 +13385,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 356.87 232.41 0)
+		(at 339.09 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13007,7 +13394,7 @@
 		(fields_autoplaced yes)
 		(uuid "4953720a-2bde-43e3-84d6-6db3452ccbf3")
 		(property "Reference" "H4"
-			(at 359.41 231.1399 0)
+			(at 341.63 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13016,7 +13403,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 359.41 233.6799 0)
+			(at 341.63 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +13412,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 356.87 232.41 0)
+			(at 339.09 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13034,7 +13421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 232.41 0)
+			(at 339.09 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13043,7 +13430,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 356.87 232.41 0)
+			(at 339.09 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,7 +13751,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 334.01 222.25 0)
+		(at 316.23 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13373,7 +13760,7 @@
 		(fields_autoplaced yes)
 		(uuid "54a6cd27-57ae-41db-823b-4b3d880309ea")
 		(property "Reference" "H1"
-			(at 336.55 220.9799 0)
+			(at 318.77 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13769,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 336.55 223.5199 0)
+			(at 318.77 223.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +13778,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 334.01 222.25 0)
+			(at 316.23 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13400,7 +13787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 222.25 0)
+			(at 316.23 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +13796,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 334.01 222.25 0)
+			(at 316.23 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,6 +13875,73 @@
 			(project "alto_driver"
 				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 377.19 220.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba456ac-09cf-4bd1-8dec-5b752727a2fd")
+		(property "Reference" "J5"
+			(at 378.46 220.3449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 378.46 222.8849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 377.19 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c29254-3d44-464b-a099-b15efbc88d5e")
+		)
+		(instances
+			(project ""
+				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14520,6 +14974,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack_MountingPin")
+		(at 369.57 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6535055d-fb3e-4bbb-bbba-78224c982ba7")
+		(property "Reference" "J6"
+			(at 369.57 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_MountingPin"
+			(at 369.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_694108106102_2.5x5.5mm"
+			(at 370.84 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with a mounting pin"
+			(at 369.57 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c87d5650-0709-4976-a359-027c04a8cb05")
+		)
+		(pin "MP"
+			(uuid "b06979eb-f59b-45f8-98e4-feb9145041e4")
+		)
+		(pin "1"
+			(uuid "a9dc1c72-6b83-48d4-b186-39bede54fbcb")
+		)
+		(instances
+			(project ""
+				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 54.61 90)
 		(unit 1)
@@ -14692,7 +15217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 340.36 195.58 270)
+		(at 322.58 195.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14700,7 +15225,7 @@
 		(dnp no)
 		(uuid "6aa574db-4686-4abd-aebe-e569e9df7dcf")
 		(property "Reference" "#PWR044"
-			(at 334.01 195.58 0)
+			(at 316.23 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14709,7 +15234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.026 195.58 90)
+			(at 317.246 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,7 +15242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 195.58 0)
+			(at 322.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14726,7 +15251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 195.58 0)
+			(at 322.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14735,7 +15260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 340.36 195.58 0)
+			(at 322.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15050,7 +15575,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 356.87 222.25 0)
+		(at 339.09 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15059,7 +15584,7 @@
 		(fields_autoplaced yes)
 		(uuid "79ff2ccb-60f5-4e7d-8dbe-e8c6748468e3")
 		(property "Reference" "H3"
-			(at 359.41 220.9799 0)
+			(at 341.63 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15068,7 +15593,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 359.41 223.5199 0)
+			(at 341.63 223.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15077,7 +15602,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 356.87 222.25 0)
+			(at 339.09 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15086,7 +15611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 222.25 0)
+			(at 339.09 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15095,7 +15620,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 356.87 222.25 0)
+			(at 339.09 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15107,6 +15632,70 @@
 			(project "alto_main_board"
 				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 386.08 193.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c5daf36-814c-4595-8aa2-6861286e0e8e")
+		(property "Reference" "J7"
+			(at 388.112 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 394.716 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 386.08 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "410d76ff-4567-46f5-8cd0-fa8fcf873135")
+		)
+		(instances
+			(project "alto_main_board"
+				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -15720,7 +16309,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 334.01 232.41 0)
+		(at 316.23 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15729,7 +16318,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f984d69-62e0-46f7-be53-577a9afa67e5")
 		(property "Reference" "H2"
-			(at 336.55 231.1399 0)
+			(at 318.77 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15738,7 +16327,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 336.55 233.6799 0)
+			(at 318.77 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15747,7 +16336,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 334.01 232.41 0)
+			(at 316.23 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15756,7 +16345,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 232.41 0)
+			(at 316.23 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15765,7 +16354,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 334.01 232.41 0)
+			(at 316.23 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16930,7 +17519,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW_2_2_-M.G.B:XT30PW_2_2_-M.G.B")
-		(at 353.06 195.58 0)
+		(at 335.28 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16939,7 +17528,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2adc938-d399-4305-b0fb-1960bef241d1")
 		(property "Reference" "J4"
-			(at 353.06 185.42 0)
+			(at 335.28 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16947,7 +17536,7 @@
 			)
 		)
 		(property "Value" "XT30PW_2_2_-M.G.B"
-			(at 353.06 187.96 0)
+			(at 335.28 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16955,7 +17544,7 @@
 			)
 		)
 		(property "Footprint" "XT30PW_2_2_-M.G.B:AMASS_XT30PW_2_2_-M.G.B"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16965,7 +17554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16974,7 +17563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16983,7 +17572,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,7 +17582,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.2mm"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,7 +17592,7 @@
 			)
 		)
 		(property "CREATOR" "ANA"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17013,7 +17602,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17023,7 +17612,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17033,7 +17622,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=eda"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17043,7 +17632,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17053,7 +17642,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17063,7 +17652,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17073,7 +17662,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=snap"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17083,7 +17672,7 @@
 			)
 		)
 		(property "MP" "XT30PW(2+2)-M.G.B"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17093,7 +17682,7 @@
 			)
 		)
 		(property "Description_1" "Industrial Control Plug"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17103,7 +17692,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17113,7 +17702,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17123,7 +17712,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17132,7 +17721,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 353.06 195.58 0)
+			(at 335.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17532,7 +18121,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 335.28 193.04 90)
+		(at 317.5 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17540,7 +18129,7 @@
 		(dnp no)
 		(uuid "be2ec816-bcb7-4256-9d54-cfe182e717af")
 		(property "Reference" "#PWR043"
-			(at 339.09 193.04 0)
+			(at 321.31 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17549,7 +18138,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 329.692 193.04 90)
+			(at 311.912 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17557,7 +18146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 193.04 0)
+			(at 317.5 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,7 +18155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 193.04 0)
+			(at 317.5 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17575,7 +18164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 335.28 193.04 0)
+			(at 317.5 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17723,6 +18312,71 @@
 			(project "alto_driver"
 				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 369.57 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c38b7c45-b0cc-4c1f-ab7c-5213c38c2ce7")
+		(property "Reference" "#PWR052"
+			(at 369.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 209.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 369.57 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95da3021-8eed-430e-8f19-4e981f3a4c3d")
+		)
+		(instances
+			(project "alto_main_board"
+				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -19650,6 +20304,72 @@
 			(project "alto_driver"
 				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 377.19 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24eae4a-533d-4914-b462-c09fe067be4f")
+		(property "Reference" "#PWR051"
+			(at 377.19 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 377.19 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 377.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae77f25a-657e-4140-92dc-9ca7a3e26018")
+		)
+		(instances
+			(project "alto_main_board"
+				(path "/75f0c9e7-60d6-4c2d-a968-7fd480ece34e"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
