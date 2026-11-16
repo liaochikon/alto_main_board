@@ -21970,31 +21970,33 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 393.7 193.04 0)
+		(at 381.0 208.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c118729c-8c15-4005-9a3f-c2f45bd23530")
+		(uuid "8b119d76-fa9a-4e4b-bf9d-8b890948d05b")
 		(property "Reference" "SW1"
-			(at 393.7 187.95999999999998 0)
+			(at 386.08 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Boat/Rocker"
-			(at 393.7 198.12 0)
+			(at 375.92 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 393.7 193.04 0)
+			(at 381.0 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22003,7 +22005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 393.7 193.04 0)
+			(at 381.0 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22012,7 +22014,7 @@
 			)
 		)
 		(property "Description" "Boat/rocker SPST across J7 (barrel tip) to +24V (J5); Pin1=J7/barrel, Pin2=+24V"
-			(at 393.7 193.04 0)
+			(at 381.0 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22021,10 +22023,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f64d9a03-ccff-44e6-aef0-3faeae1abf6a")
+			(uuid "9ca3335f-01ce-49b0-a45d-9c92393ae27f")
 		)
 		(pin "2"
-			(uuid "cf9157e6-fe44-4fca-9b47-f95504d2460e")
+			(uuid "c3d1fd3b-ed57-4042-abb4-1a5d778eeac1")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22037,15 +22039,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 398.78 193.04 90)
+		(at 381.0 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a262971b-115e-4f21-a11f-b39f296115aa")
+		(uuid "f0a9543c-939d-4781-b33b-517e4fc07218")
 		(property "Reference" "#PWR065"
-			(at 402.59 193.04 0)
+			(at 381.0 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22054,15 +22056,16 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 396.23999999999995 193.04 90)
+			(at 386.08 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 398.78 193.04 0)
+			(at 381.0 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22071,7 +22074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 193.04 0)
+			(at 381.0 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22080,7 +22083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 398.78 193.04 0)
+			(at 381.0 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22089,7 +22092,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2486ba4-3765-4660-b920-8c346ef70293")
+			(uuid "826cc740-4fce-414a-bf69-aa18bc94cb82")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22100,62 +22103,68 @@
 			)
 		)
 	)
-	(text "SW1 boat/rocker: Pin1 = J7 / barrel tip (J6.1), Pin2 = +24V / J5\n(soldered across existing J7–J5 pads; footprint PN TBD)"
+	(text "SW1 boat/rocker: Pin1=J7/barrel tip, Pin2=+24V/J5\n(soldered across J7–J5 pads; footprint PN TBD)"
 		(exclude_from_sim no)
-		(at 393.7 182.88 0)
+		(at 355.6 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d4b71f0a-0bca-45ed-a7ae-4598e5115651")
+		(uuid "f994fa5e-d2b4-4462-b89f-023e015d65b2")
 	)
 	(wire
 		(pts
-			(xy 381 193.04) (xy 388.62 193.04)
+			(xy 381.0 193.04) (xy 381.0 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30205b77-747a-4eb6-8a09-4135b64b501a")
+		(uuid "5d14847e-6d52-40ba-affc-ec065610d93a")
 	)
 	(wire
 		(pts
-			(xy 398.78 193.04) (xy 398.78 226.06)
+			(xy 381.0 213.36) (xy 381.0 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2258939a-24fc-4177-820a-338c4f729f5e")
+		(uuid "13b9f8c1-7ab8-4d5e-ab02-d64273e8c77c")
 	)
 	(wire
 		(pts
-			(xy 398.78 226.06) (xy 377.19 226.06)
+			(xy 381.0 226.06) (xy 377.19 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e05c653d-2bac-4659-908d-b2379c5fc2f7")
+		(uuid "326dc801-8d80-4163-aa84-15608f5d5060")
 	)
 	(junction
-		(at 398.78 193.04)
+		(at 381.0 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d36a6d03-2c31-42e6-9de1-b04a31137e06")
+		(uuid "f36b1b9e-4cf7-4cda-ae67-cd26f278b694")
+	)
+	(junction
+		(at 381.0 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2343d0-d4ed-4aca-b336-70460e306899")
 	)
 	(junction
 		(at 377.19 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd64a39d-901a-4b01-ac47-330fdfac24ab")
+		(uuid "b7ac741f-1441-409c-b3f7-993b49d4fe52")
 	)
-	(text "Test points (lean)"
+	(text "Test points"
 		(exclude_from_sim no)
-		(at 414.02 27.94 0)
+		(at 360.68 132.08 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -22163,19 +22172,19 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cceb3e66-8e63-4fbc-a14a-2d7181ebfda4")
+		(uuid "4bf2f151-a5b6-4193-b32b-5517ced247ee")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 414.02 40.64 0)
+		(at 360.68 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be121fb6-476c-411f-9d16-9d4aab23f33c")
+		(uuid "919634e7-4b57-4c60-89cb-9cb2ef8b261a")
 		(property "Reference" "TP1"
-			(at 419.1 43.18 0)
+			(at 365.76 142.23999999999998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22184,7 +22193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 419.1 40.64 0)
+			(at 365.76 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22193,7 +22202,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 414.02 40.64 0)
+			(at 360.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22202,7 +22211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 414.02 40.64 0)
+			(at 360.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22211,7 +22220,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 414.02 40.64 0)
+			(at 360.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22220,7 +22229,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "21a64ff7-7afa-4b7d-a96e-21450fcbe3e0")
+			(uuid "d31e41da-afe9-4a8c-abca-2ba95f7f3113")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22233,15 +22242,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 414.02 40.64 0)
+		(at 360.68 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "81a13cba-810c-4d9a-b8b4-578147db5efa")
+		(uuid "d7387167-be63-49bc-8d83-26e295fd8517")
 		(property "Reference" "#PWR066"
-			(at 414.02 44.45 0)
+			(at 360.68 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22250,7 +22259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 408.94 40.64 0)
+			(at 355.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22259,7 +22268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 40.64 0)
+			(at 360.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22268,7 +22277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 40.64 0)
+			(at 360.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22277,7 +22286,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 414.02 40.64 0)
+			(at 360.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22286,7 +22295,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8094e9f-6bbb-4826-9df6-e24546742442")
+			(uuid "be9a7564-dcf4-4858-a27e-4aba5928c2ad")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22299,15 +22308,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 414.02 55.88 0)
+		(at 360.68 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bde39102-8f8e-4569-a818-3a29ea8be915")
+		(uuid "a48cedc1-b777-4b28-8c6b-78f4c866642c")
 		(property "Reference" "TP2"
-			(at 419.1 58.42 0)
+			(at 365.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22316,7 +22325,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 419.1 55.88 0)
+			(at 365.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22325,7 +22334,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 414.02 55.88 0)
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22334,7 +22343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 414.02 55.88 0)
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22343,7 +22352,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 414.02 55.88 0)
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22352,7 +22361,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "34f554bf-979c-461b-83d2-02eeed0e4e11")
+			(uuid "aab2ec49-5042-40cc-97f6-d97cb45ca05b")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22365,15 +22374,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 414.02 55.88 0)
+		(at 360.68 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3a160b7d-6e2b-40bc-985b-92ebfca18b87")
+		(uuid "2e83e725-7284-489c-a755-cc63e40a632f")
 		(property "Reference" "#PWR067"
-			(at 414.02 59.690000000000005 0)
+			(at 360.68 153.67000000000002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22382,7 +22391,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 408.94 55.88 0)
+			(at 355.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22391,7 +22400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 55.88 0)
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,7 +22409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 55.88 0)
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22409,7 +22418,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 414.02 55.88 0)
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,7 +22427,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7f8c5f5-657c-43ac-aa9d-f136ec599457")
+			(uuid "d669318d-0c50-40e8-9ac3-69570b2b4767")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22431,15 +22440,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 414.02 71.12 0)
+		(at 360.68 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "55e4d498-d894-4873-89a1-67f5bc7c8a62")
+		(uuid "eb069750-06ed-4197-b384-efca215c43d7")
 		(property "Reference" "TP3"
-			(at 419.1 73.66000000000001 0)
+			(at 365.76 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22448,7 +22457,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 419.1 71.12 0)
+			(at 365.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22457,7 +22466,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 414.02 71.12 0)
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22466,7 +22475,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 414.02 71.12 0)
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22475,7 +22484,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 414.02 71.12 0)
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22484,7 +22493,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa4f4aff-e2e6-4160-b306-d706f7b19918")
+			(uuid "37167b6c-42fa-4510-bd48-97d82083f4e0")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22497,15 +22506,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 414.02 71.12 0)
+		(at 360.68 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4abe15d3-8e00-40b3-a604-f0f6c44aaee3")
+		(uuid "34f51666-6e93-40b9-89a5-c9adf49e4f54")
 		(property "Reference" "#PWR068"
-			(at 414.02 74.93 0)
+			(at 360.68 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22514,7 +22523,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 408.94 71.12 0)
+			(at 355.6 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22523,7 +22532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 71.12 0)
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22532,7 +22541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 71.12 0)
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22541,7 +22550,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 414.02 71.12 0)
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22550,7 +22559,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8602512e-a757-4d6c-9558-7de4658cbf03")
+			(uuid "050fc6e9-2299-4d5c-b7aa-2c4464ae25a1")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22563,15 +22572,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 414.02 86.36 0)
+		(at 360.68 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6b5bd3fc-9d35-4986-be86-2c3d4dda9180")
+		(uuid "1ebe26f0-8359-4723-a910-c0ecdfb92297")
 		(property "Reference" "TP4"
-			(at 419.1 88.9 0)
+			(at 365.76 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22580,7 +22589,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 419.1 86.36 0)
+			(at 365.76 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22589,7 +22598,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 414.02 86.36 0)
+			(at 360.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22598,7 +22607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 414.02 86.36 0)
+			(at 360.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22607,7 +22616,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 414.02 86.36 0)
+			(at 360.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22616,7 +22625,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5042501a-a352-45b7-a5f4-fab3b2573fe0")
+			(uuid "edc0e902-aa70-4fcd-b86f-0d175a2f6128")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22629,15 +22638,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 414.02 86.36 0)
+		(at 360.68 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "67683a74-5bcc-48fa-abe6-739cd6bab6d7")
+		(uuid "0e6f2dcd-a324-400c-bc15-303e87d161a6")
 		(property "Reference" "#PWR069"
-			(at 414.02 90.17 0)
+			(at 360.68 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22646,7 +22655,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 408.94 86.36 0)
+			(at 355.6 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22655,7 +22664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 86.36 0)
+			(at 360.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22664,7 +22673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 86.36 0)
+			(at 360.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22673,7 +22682,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 414.02 86.36 0)
+			(at 360.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22682,7 +22691,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f196e80-db4a-4e29-ae84-7f0edcbc9ed9")
+			(uuid "5cd04deb-ba11-483f-a916-b8113553d06f")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22695,15 +22704,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 414.02 101.6 0)
+		(at 360.68 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "03ebd78c-bf08-4917-9dc8-399149ae6bc0")
+		(uuid "1a64bde9-bf91-40a1-8acb-2afd1047b1f6")
 		(property "Reference" "TP5"
-			(at 419.1 104.14 0)
+			(at 365.76 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22712,7 +22721,7 @@
 			)
 		)
 		(property "Value" "NRST"
-			(at 419.1 101.6 0)
+			(at 365.76 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22721,7 +22730,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 414.02 101.6 0)
+			(at 360.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22730,7 +22739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 414.02 101.6 0)
+			(at 360.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22739,7 +22748,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 414.02 101.6 0)
+			(at 360.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22748,7 +22757,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1678d7e0-54de-40c8-ae8a-e2c04018d43c")
+			(uuid "2d4a06b4-e1bf-4465-8e99-91e8dbf0afae")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22761,7 +22770,7 @@
 	)
 	(global_label "NRST"
 		(shape bidirectional)
-		(at 414.02 101.6 180)
+		(at 360.68 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22769,9 +22778,9 @@
 			)
 			(justify right)
 		)
-		(uuid "241ee163-c014-45f9-897a-281bf01611a5")
+		(uuid "c906c8c7-de31-4319-ae2c-9494da00deee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 414.02 101.6 0)
+			(at 360.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22779,6 +22788,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(text "NRST TP5 → R4/C17 (NRST). PCB: Net-(U3-PG10). Sch/PCB pin cleanup follow-up."
+		(exclude_from_sim no)
+		(at 360.68 187.96 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "1680d598-e79a-49ba-b040-de6c0293c3e8")
 	)
 	(wire
 		(pts
@@ -22814,17 +22834,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(text "NRST TP5 ties to R4/C17 net (labeled NRST).\nNote: sch currently attaches that net to U3.27/PB13; PCB routes it to PG10-NRST.\nFull sch pin fix is follow-up — not part of boat-switch/TP trial."
-		(exclude_from_sim no)
-		(at 414.02 111.76 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left top)
-		)
-		(uuid "4905de5e-25f6-40bb-8d55-e17b89910af2")
 	)
 	(sheet_instances
 		(path "/"
