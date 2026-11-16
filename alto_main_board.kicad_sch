@@ -22196,34 +22196,32 @@
 		(uuid "4bf2f151-a5b6-4193-b32b-5517ced247ee")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 360.68 139.7 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 365.76 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "919634e7-4b57-4c60-89cb-9cb2ef8b261a")
+		(uuid "c62655ce-c1bd-470a-bbc7-3b2388c970a3")
 		(property "Reference" "TP1"
-			(at 365.76 142.23999999999998 0)
+			(at 368.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 139.7 0)
+			(at 368.3 142.23999999999998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 360.68 139.7 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 365.76 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22232,7 +22230,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 139.7 0)
+			(at 365.76 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22240,8 +22238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 360.68 139.7 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 365.76 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22250,7 +22248,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d31e41da-afe9-4a8c-abca-2ba95f7f3113")
+			(uuid "f29fafbc-3a73-4610-b762-0c43d81cb1c6")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22261,6 +22259,7 @@
 			)
 		)
 	)
+
 	(symbol
 		(lib_id "power:GND")
 		(at 360.68 139.7 0)
@@ -22328,34 +22327,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 360.68 149.86 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 365.76 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a48cedc1-b777-4b28-8c6b-78f4c866642c")
+		(uuid "059ec2ac-1566-4467-821f-dcb84e8062f6")
 		(property "Reference" "TP2"
-			(at 365.76 152.4 0)
+			(at 368.3 147.32000000000002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "+24V"
-			(at 365.76 149.86 0)
+			(at 368.3 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 360.68 149.86 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 365.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22364,7 +22361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 149.86 0)
+			(at 365.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22372,8 +22369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 360.68 149.86 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 365.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22382,7 +22379,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aab2ec49-5042-40cc-97f6-d97cb45ca05b")
+			(uuid "1b57a102-d57f-4b44-9dbc-e5506326ef26")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22393,6 +22390,7 @@
 			)
 		)
 	)
+
 	(symbol
 		(lib_id "power:+24V")
 		(at 360.68 149.86 0)
@@ -22460,34 +22458,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 360.68 160.02 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 365.76 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb069750-06ed-4197-b384-efca215c43d7")
+		(uuid "7ab6c283-b6d8-417a-93a6-a4b57dad2ef1")
 		(property "Reference" "TP3"
-			(at 365.76 162.56 0)
+			(at 368.3 157.48000000000002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "+5V"
-			(at 365.76 160.02 0)
+			(at 368.3 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 360.68 160.02 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 365.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22496,7 +22492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 160.02 0)
+			(at 365.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22504,8 +22500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 360.68 160.02 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 365.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22514,7 +22510,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "37167b6c-42fa-4510-bd48-97d82083f4e0")
+			(uuid "1b9522b3-c42e-419e-bf31-e185071baefd")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22525,6 +22521,7 @@
 			)
 		)
 	)
+
 	(symbol
 		(lib_id "power:+5V")
 		(at 360.68 160.02 0)
@@ -22592,34 +22589,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 360.68 170.18 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 365.76 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ebe26f0-8359-4723-a910-c0ecdfb92297")
+		(uuid "11a5f83d-3dff-456c-8ce7-8e92b8585054")
 		(property "Reference" "TP4"
-			(at 365.76 172.72 0)
+			(at 368.3 167.64000000000001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 365.76 170.18 0)
+			(at 368.3 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 360.68 170.18 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 365.76 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22628,7 +22623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 170.18 0)
+			(at 365.76 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22636,8 +22631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 360.68 170.18 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 365.76 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22646,7 +22641,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "edc0e902-aa70-4fcd-b86f-0d175a2f6128")
+			(uuid "5a4b22f1-0c0b-44a3-b12e-4232671dec58")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22657,6 +22652,7 @@
 			)
 		)
 	)
+
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 360.68 170.18 0)
@@ -22724,34 +22720,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 360.68 180.34 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 365.76 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1a64bde9-bf91-40a1-8acb-2afd1047b1f6")
+		(uuid "036d2a6b-b134-4ca9-9a19-1f48bcd32b50")
 		(property "Reference" "TP5"
-			(at 365.76 182.88 0)
+			(at 368.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "NRST"
-			(at 365.76 180.34 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 360.68 180.34 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 365.76 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22760,7 +22754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 180.34 0)
+			(at 365.76 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22768,8 +22762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 360.68 180.34 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 365.76 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22778,7 +22772,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d4a06b4-e1bf-4465-8e99-91e8dbf0afae")
+			(uuid "9225d52f-9528-4730-8a77-6498bdeb2aa5")
 		)
 		(instances
 			(project "alto_main_board"
@@ -22789,6 +22783,7 @@
 			)
 		)
 	)
+
 	(global_label "NRST"
 		(shape bidirectional)
 		(at 360.68 180.34 180)

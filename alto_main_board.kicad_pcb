@@ -21833,39 +21833,39 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "170855d3-0523-4c28-bea5-2b65ff3020f6")
+		(uuid "bc61964e-fdc1-4eb2-a906-5246d1b17eea")
 		(at 148.0 77.5)
-		(descr "SMD pad as test Point, diameter 1.5mm")
-		(tags "test point SMD pad")
+		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "TP1"
-			(at 0 -1.8 0)
+			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "b2fd5ebc-42b0-467b-b1a8-3db8bcca9304")
+			(uuid "8787d07c-d976-49cd-b987-91e011efcea3")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "GND"
-			(at 0 1.9 0)
+			(at 0 2.38 0)
 			(layer "F.Fab")
-			(uuid "e42f607c-aad8-43e5-94d7-13366cc3bc0c")
+			(uuid "17019c00-9b63-4c37-bdf5-4e46215ccb33")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d6e171d-3af3-4706-b6ff-9c0777878c2b")
+			(uuid "04546f4a-2390-485e-be8c-23c972104117")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21873,11 +21873,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dee24688-f59b-4be5-8314-2af6b9c7ad51")
+			(uuid "a3ff913c-83c3-4d60-ba76-8ab3ce6b5342")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21885,11 +21885,11 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fe70c83-a521-4aa9-ae12-19715c052b60")
+			(uuid "b188d449-6b61-4a14-8847-67ce6e875257")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21897,83 +21897,134 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
+		(attr through_hole)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "7fe00a5c-cb49-453d-ac2d-e5b2d8bb674c")
+			(uuid "55d9ca4a-6b91-452a-84ab-32236c4749d3")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2996b906-d941-4da1-ada2-f1d7e91ee848")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f08a6461-aac7-4379-9116-60b3b24b1ffa")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92a1ea26-57b1-4342-93b8-4f519f38b1f4")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4eaede2d-e914-45ab-9698-4f623e4271a0")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "62022dbe-546b-4e43-9ced-99e44d089153")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "27f24ba1-ecc7-44dc-8ed5-a82556b4e8ba")
+			(uuid "365e81d5-c232-482b-9fa7-272b64c3d0d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "da7f6129-caf3-4f54-a8b4-50e065c988e5")
+			(uuid "a933a33c-bd01-42ce-8974-e3a58cecdc53")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 1 "GND")
-			(uuid "decd1ee3-14fd-41f5-9b29-6096a2da76fd")
+			(uuid "94b315c4-c61d-4b1e-8db1-293841680e21")
 		)
 		(embedded_fonts no)
 	)
 
-	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "42af9825-3f5f-4946-803e-4253ff302277")
+		(uuid "3948ef26-2305-482d-a547-bf7e0b3352cf")
 		(at 153.0 77.5)
-		(descr "SMD pad as test Point, diameter 1.5mm")
-		(tags "test point SMD pad")
+		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "TP2"
-			(at 0 -1.8 0)
+			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "221124a5-335c-42ec-8be7-636769d8856a")
+			(uuid "d64f7b1b-1567-447a-ad72-3c5211938adb")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "+24V"
-			(at 0 1.9 0)
+			(at 0 2.38 0)
 			(layer "F.Fab")
-			(uuid "5eb41b2a-a3ff-45e5-9a5c-ee1cc9437dc6")
+			(uuid "2cab1512-4809-45c1-8e89-6ee8a0a5badb")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1469b801-816d-4837-8d1d-cc64175c70eb")
+			(uuid "d950dbed-abaa-4179-97ad-cef4d4b165a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21981,11 +22032,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e007bce-5396-4070-8fc7-db9175cbd220")
+			(uuid "f4add038-7f60-4a4c-8022-b884650d412f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21993,11 +22044,11 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d450f9cb-352b-4df9-9797-2f8980ccd828")
+			(uuid "5287cfd9-4784-40d9-afe2-ac0856f19b68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22005,83 +22056,134 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
+		(attr through_hole)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "33c71d28-7c90-4ce0-a48f-600c73459c2b")
+			(uuid "50135eed-4c9a-401d-bc87-f91073fa6f9f")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a895a880-c809-441a-9ab7-002979ddfeb2")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "337b26a2-5fa0-4165-a1d1-052263958d79")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ec6522a-3e26-4239-bdb0-0b117be64d7a")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5e8a1735-eb82-4ce8-92f7-2251a0c15de2")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e1e60fd-c0b1-4767-9c97-cc19c1f08034")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ea57c780-536f-4049-b492-b87cb913bed3")
+			(uuid "7316208a-145e-4d26-9fa8-c15c1f18234e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "3c2655d1-3e32-45f0-927b-21a17d00ef7e")
+			(uuid "33ccecf8-bbab-4daf-bd24-7e520ffc3029")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 2 "+24V")
-			(uuid "4e623268-9876-4d8a-bf34-cca365e17ece")
+			(uuid "0c8df1f4-af9d-44e6-9cf7-958f69c78474")
 		)
 		(embedded_fonts no)
 	)
 
-	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "a5c6d6f1-fb36-4121-bc77-f7721128ab03")
+		(uuid "caec5171-042a-4c86-9446-8330d0a48eaa")
 		(at 158.0 77.5)
-		(descr "SMD pad as test Point, diameter 1.5mm")
-		(tags "test point SMD pad")
+		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "TP3"
-			(at 0 -1.8 0)
+			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "644a9004-2066-43fd-8e20-0aa1ef64a69f")
+			(uuid "d93ae955-9fb5-441d-ae02-d09446db7f36")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "+5V"
-			(at 0 1.9 0)
+			(at 0 2.38 0)
 			(layer "F.Fab")
-			(uuid "0752f778-e9dd-4533-a4c7-c718f5d51b5e")
+			(uuid "39a376de-becf-466f-a911-8a5440ebbb3f")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0181e5d-51e9-4b6f-a0ec-29d614eedea8")
+			(uuid "aedbbde3-a533-44f8-8246-f4c4bc8d59d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22089,11 +22191,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2563634-1394-4f27-8579-af502ae2ea83")
+			(uuid "68b32fdb-b3ea-4db8-b4eb-774ae6eb886c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22101,11 +22203,11 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f01d932a-302a-4ab1-abf4-030358b32a4b")
+			(uuid "6babc5d3-3186-4f9d-a5a9-f0a11431ebfd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22113,83 +22215,134 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
+		(attr through_hole)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "6d4b7e70-6b88-4a67-81b0-5671b37e67e6")
+			(uuid "bb77e051-42ec-43e7-b6f0-d53595023900")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ddb940f-77e3-4bec-84a7-4e11f89b42c4")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50fbdb6b-d33a-4e0c-b3e9-6a3083bfa2c4")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ee15c87-8d38-431c-9d87-91f1dc6999e2")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "33cac5f4-fff5-4ddc-9eae-9be366244402")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b587458-34ea-443b-9a23-a264de19cdd0")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "de037f3e-ee0a-4592-81da-699405241592")
+			(uuid "cdd815df-3815-4b0a-8ecc-4dd5c573a6f7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "da7673d5-2b96-4bb5-ac94-b2d76db86af5")
+			(uuid "554302e7-89ec-4a52-816a-b822e3cc4dd0")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 5 "+5V")
-			(uuid "914f0da0-74b3-4c17-a04a-e5622ebae473")
+			(uuid "47bd03d2-ee0c-42b5-aa3c-0a2c54c3e42b")
 		)
 		(embedded_fonts no)
 	)
 
-	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "19f7a0cf-95ae-4534-970a-f88c4ea4b189")
+		(uuid "5f0aa4a1-258e-4ece-a46a-10fc552059e1")
 		(at 163.0 77.5)
-		(descr "SMD pad as test Point, diameter 1.5mm")
-		(tags "test point SMD pad")
+		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "TP4"
-			(at 0 -1.8 0)
+			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "687c6ed9-e06d-413c-8694-bc82eafab12c")
+			(uuid "c9aef053-35bc-4e15-8c4e-bdd4cae4cc7f")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 0 1.9 0)
+			(at 0 2.38 0)
 			(layer "F.Fab")
-			(uuid "42b485fd-ede0-4df1-8103-8d78b504abd1")
+			(uuid "4dfab95d-c703-4676-a689-c84cb5cb43ef")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50624a91-d68d-4af9-860f-ae30be8e82c9")
+			(uuid "f785d9f1-6ab9-4667-9254-1e9efc5ee13b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22197,11 +22350,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b04c4df-8c57-40e9-b911-631a336a7a81")
+			(uuid "fa5b3870-6a70-4475-bd70-622021bc641c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22209,11 +22362,11 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65d45afa-3d28-40e7-bfd2-86cec231dde6")
+			(uuid "a808b434-ee40-4222-a1a4-a6e3bdde82c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22221,83 +22374,134 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
+		(attr through_hole)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "6a15e472-6c76-4f95-8c55-cd823e5f8efa")
+			(uuid "2c15673a-84fd-409c-8867-749505fea211")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b04014e1-bb57-4ee4-becc-c64922e487d4")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f5d5871-a2f5-4ab2-9a65-7c3b36ed50d0")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ac7c03f6-852d-4d81-a7c6-f67198eca8ed")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "897d2607-5ba4-425c-ad32-781081338c7f")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "35301350-f269-49ac-93c3-065fbfb736ce")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "62e1e3b1-63df-4bab-bf40-68de2ef1cc0c")
+			(uuid "a1b19543-1f97-44e9-b4b0-3297044b41d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "88d1f9e5-c9bb-4398-bc08-502674d34aad")
+			(uuid "b6c5598a-4adc-4619-88b1-a861339d7659")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 7 "+3.3V")
-			(uuid "b6aa8b33-73d6-4533-b8f4-b66d78e727fd")
+			(uuid "d7689d49-eb63-4a77-a934-e78b6de5c472")
 		)
 		(embedded_fonts no)
 	)
 
-	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "321d1675-73b6-45ea-b371-9b95a36061e3")
+		(uuid "b4749237-de2f-457f-8d0a-dfc03dba1fc8")
 		(at 168.0 77.5)
-		(descr "SMD pad as test Point, diameter 1.5mm")
-		(tags "test point SMD pad")
+		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "TP5"
-			(at 0 -1.8 0)
+			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "ec5ae669-6971-4247-b9fb-23d88b30e6a6")
+			(uuid "a5feb1ca-1952-406e-8aca-c0cb9ae5694a")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "NRST"
-			(at 0 1.9 0)
+			(at 0 2.38 0)
 			(layer "F.Fab")
-			(uuid "683863ba-8578-4ce6-a1ff-99a6f5f2eea9")
+			(uuid "a0164869-0190-49fb-ab8b-20620284ed2d")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e8ad654-b03e-4d85-9360-907a77796c07")
+			(uuid "69ce4853-ffab-4d79-8954-402e634304e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22305,11 +22509,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c257a135-42a1-4941-8abb-395078c56d06")
+			(uuid "4f339e27-3ba2-406f-a74e-1bd7219bf5bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22317,11 +22521,11 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff5aa03c-1934-4ef6-9d61-8804e39c9212")
+			(uuid "68a79146-4044-4375-80b5-7645aaeae229")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22329,46 +22533,97 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
+		(attr through_hole)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "83da7435-8698-46c9-af9a-a714ced383bf")
+			(uuid "6172fbb9-2664-48dd-a0fb-e6f5e73bd2ec")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fe54c892-542d-438d-8850-632ebf33272b")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "32a9cf22-f42d-4f32-9638-89446845a894")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5b35069-e6ad-4bdc-87b7-5572840ceb75")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "71d936d4-d336-4d8b-b43d-508533e2fd0f")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce2c37ea-c798-42f8-a61e-48638ff48f19")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "06c727b1-a39e-439e-879c-572f30590751")
+			(uuid "d50f5b54-5eaa-466a-8d30-9bc055eda670")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "c6bac20a-6ed8-4cf8-a0c9-3513815eb13a")
+			(uuid "fb1686c3-6a26-42af-bc75-6f60bbb2b741")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 10 "Net-(U3-PG10)")
-			(uuid "7a053e74-d8b9-4dfc-9186-cdf88f4d0d06")
+			(uuid "d73f5841-f4ce-43d8-ba74-1115d4f1336a")
 		)
 		(embedded_fonts no)
 	)
